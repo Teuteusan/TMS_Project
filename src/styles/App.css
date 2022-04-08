@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.decoration {
+  text-align: center;
+  font-size: 48px;
+  height: 60px;
+  color: #E34C38;
+  text-shadow: 1px 1px white, 2px 2px white, -1px -1px white, -2px -2px white, -1px 1px white, 1px -1px white, -2px 2px white, 2px -2px white, -3px -3px 4px rgba(0, 0, 0, .3), -3px 3px 4px rgba(0, 0, 0, .3), 3px 3px 4px rgba(0, 0, 0, .3), 3px -3px 4px rgba(0, 0, 0, .3);
+  background-image: url(/src/Img/pattern.png);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto',
+    monospace;
+}
+
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+
+.ghost {
+  background-color: #9e9e9e;
+}
+
+.electric {
+  background-color: #ffff8d;
+}
+
+.bug {
+  background-color: #ffe082;
+}
+
+.poison {
+  background-color: #e1bee7;
+}
+
+.normal {
+  background-color: #80cbc4;
+}
+
+.fairy {
+  background-color: #f57f17;
+}
+
+.fire {
+  background-color: #ff9e80;
+}
+
+.grass {
+  background-color: #a5d6a7;
+}
+
+.water {
+  background-color: #b2ebf2;
+}
+
+.ice {
+  background-color: #b3e5fc;
+}
+
+.ground {
+  background-color: #bcaaa4;
+}
+
+.fighting {
+  background-color: #a1887f;
+}
+
+.psychic {
+  background-color: #9fa8da;
+}
+
+.dragon {
+  background-color: #f06292;
+}
+
+.dark {
+  background-color: #616161;
+}
+
+.steel {
+  background-color: #607d8b;
+}
+
+.app-contaner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+}
+
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  margin: 0.3rem;
+  border: 1px solid #efefef;
+  border-radius: 0.2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+
+h3 {
+  margin-bottom: 0.2rem;
+}
+
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.thumb-container small {
+  text-transform: capitalize;
+}
+
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.load-more {
+  border-radius: 2px;
+  color: #444;
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+}
+
+.сarousel-banner {
+  text-align: center;
+  max-width: 1000px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 0 40px;
+  color: #a5d6a7;
+}
+.abouthome h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.abouthome p{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+
+}
